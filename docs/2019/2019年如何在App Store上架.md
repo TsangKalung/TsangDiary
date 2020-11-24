@@ -6,7 +6,7 @@ iTunes Connect 改版为 App Store 之后上架流程发生了一些变化；我
 
 首先假设你已经拥有了开发者账户（个人 or 企业），访问[App Store Connect](https://appstoreconnect.apple.com)，选择「我的 App」。
 
-![avatar](../../assets/release_1.png)
+<img src='../../assets/release_1.png' width=400>
 
 选择「新建 App」后填写相关信息；注意，`套装 ID`即 Bundle ID 要在「Certificates, Identifiers & Profiles」中的「Identifiers」中提前注册，`Bundle ID` 的 `NAME` 项尽量与 App 同名。
 
@@ -59,13 +59,13 @@ iTunes Connect 改版为 App Store 之后上架流程发生了一些变化；我
 
 内测的流程是首先添加内部测试员，添加完毕后即可发送邀请邮件。
 
-外测的流程有所不同，首先要把 App 提交 BETA 版本审核，审核的过程可能是 1-2 天，随后即可添加外部测试群组。外测更加方便，因为会生成相应的TestFlight Link，复制发给外部测试员即可开始测试。
+外测的流程有所不同，首先要把 App 提交 BETA 版本审核，审核的过程可能是 1-2 天，随后即可添加外部测试群组。外测更加方便，因为会生成相应的 TestFlight Link，复制发给外部测试员即可开始测试。
 
 ![avatar](../../assets/release_11.png)
 
 ## 正式上架
 
-测试完毕后，在App Store项填完相应的信息，即可提交审核。
+测试完毕后，在 App Store 项填完相应的信息，即可提交审核。
 
 ![avatar](../../assets/release_12.png)
 

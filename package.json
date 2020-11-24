@@ -4,7 +4,8 @@
         "docs:build": "vuepress build docs"
     },
     "dependencies": {
-        "jslint": "^0.12.0"
+        "jslint": "^0.12.0",
+        "vuepress": "^1.7.1"
     },
     "devDependencies": {
         "cz-conventional-changelog": "^3.0.2"
